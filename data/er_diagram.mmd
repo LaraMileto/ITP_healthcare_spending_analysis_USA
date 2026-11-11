@@ -1,0 +1,24 @@
+erDiagram
+    indicators ||--o{ observations : "indicator_id"
+    quintiles  ||--o{ observations : "quintile_id"
+
+    indicators {
+        INTEGER indicator_id PK "NOT NULL"
+        VARCHAR fred_code UK "NOT NULL UNIQUE"
+        VARCHAR title "NOT NULL"
+        VARCHAR unit "NOT NULL"
+        VARCHAR category "NOT NULL"
+    }
+
+    quintiles {
+        INTEGER quintile_id PK "NOT NULL"
+        VARCHAR label UK "NOT NULL UNIQUE"
+        VARCHAR description "NULL allowed"
+    }
+
+    observations {
+        INTEGER indicator_id PK,FK "NOT NULL"
+        INTEGER quintile_id PK,FK "NOT NULL"
+        DATE date PK "NOT NULL"
+        DOUBLE value "NOT NULL"
+    }

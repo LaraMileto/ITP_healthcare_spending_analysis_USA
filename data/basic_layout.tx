@@ -1,0 +1,45 @@
+we have discussed the basic layout of the project and here is a text file containing all the required links and graph ideas
+
+liks:
+
+Healthcare spending × Q1–Q5
+
+Q1: https://fred.stlouisfed.org/series/CXUHEALTHLB0102M
+Q2: https://fred.stlouisfed.org/series/CXUHEALTHLB0103M
+Q3: https://fred.stlouisfed.org/series/CXUHEALTHLB0104M
+Q4: https://fred.stlouisfed.org/series/CXUHEALTHLB0105M
+Q5: https://fred.stlouisfed.org/series/CXUHEALTHLB0106M
+
+Income after tax × Q1–Q5
+
+Q1: https://fred.stlouisfed.org/series/CXUINCAFTTXLB0102M
+Q2: https://fred.stlouisfed.org/series/CXUINCAFTTXLB0103M
+Q3: https://fred.stlouisfed.org/series/CXUINCAFTTXLB0104M
+Q4: https://fred.stlouisfed.org/series/CXUINCAFTTXLB0105M
+Q5: https://fred.stlouisfed.org/series/CXUINCAFTTXLB0106M
+
+Total expenditure × Q1–Q5
+
+Q1: https://fred.stlouisfed.org/series/CXUTOTALEXPLB0102M
+Q2: https://fred.stlouisfed.org/series/CXUTOTALEXPLB0103M
+Q3: https://fred.stlouisfed.org/series/CXUTOTALEXPLB0104M
+Q4: https://fred.stlouisfed.org/series/CXUTOTALEXPLB0105M
+Q5: https://fred.stlouisfed.org/series/CXUTOTALEXPLB0106M
+
+CPI Total: https://fred.stlouisfed.org/series/CPALTT01USM657N
+CPI medical: https://fred.stlouisfed.org/series/CPIMEDSL#
+Median Personal Income in the United States (nominal): https://fred.stlouisfed.org/series/MEPAINUSA646N
+
+We may use so we load in the db but IDK:
+Medicaid transfers to persons: https://fred.stlouisfed.org/series/W729RC1A027NBEA
+Medicare transfers to persons: https://fred.stlouisfed.org/series/W824RC1
+Total government health expenditure: https://fred.stlouisfed.org/series/G160271A027NBEA
+
+Possible graphs:
+Affordability ratio healthcare: healthcare spending / income after tax (%) over time for all quantiles
+Healthcare expenditure as % of total expenditure
+Medical CPI vs General CPI
+Real vs Nominal CPI
+Govt expenditure healthcare vs our affordability index we created
+
+Maybe try to mix quantiles (Q5 expenditure vs Q1 Income after tax)

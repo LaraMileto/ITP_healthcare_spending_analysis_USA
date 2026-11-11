@@ -1,12 +1,16 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/O8g-fESH)
-
-# Healthcare Affordability in the United States — Group 3
+# Healthcare Affordability in the United States — Group Project
 
 This project investigates how healthcare expenditures have evolved relative to personal income, and assesses whether healthcare has become less affordable over time in the United States.
 
 We retrieve economic time series from the [FRED API](https://fred.stlouisfed.org/), store them in a relational DuckDB database, and analyze them through a reusable Python class.
 
 ---
+## Authors
+Lara Mileto https://github.com/LaraMileto
+Joao Matteo Pisaturo https://github.com/jmp1909
+Mathis Clement https://github.com/Mclement197
+Michele Zecchin https://github.com/zektronix
+Erwan Rollin https://github.com/erwanroo
 
 ## Research Question
 
